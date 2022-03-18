@@ -26,3 +26,5 @@ const createList = function (name) {
     todos: [], // [id]
   };
 };
+
+export { createTodo, createList };
