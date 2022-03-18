@@ -11,5 +11,6 @@ module.exports = {
   rules: {
     'no-console': 'off',
     'func-names': 'off',
+    'no-unused-vars': 'warn',
   },
 };
