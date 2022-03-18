@@ -1,0 +1,28 @@
+{
+  "name": "todo_list",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boathouse2112/restaurant_page.git"
+  },
+  "author": "Mark Murphy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boathouse2112/restaurant_page/issues"
+  },
+  "homepage": "https://github.com/boathouse2112/restaurant_page#readme",
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "prettier": "^2.6.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
