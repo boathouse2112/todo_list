@@ -1,2 +1,6 @@
 node_modules/*
 dist/main.js
+dist/css/styles.css
+dist/css/styles.css.map
+dist/css/styles.min.css
+dist/css/styles.min.css.map

@@ -1,5 +1,4 @@
-import { describe, expect, jest, test } from '@jest/globals';
-import { createTodo } from './index';
+const { createTodo } = require('./index');
 
 describe('create todo', () => {
   test('id is 36 characters long', () => {
