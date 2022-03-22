@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 const { createTodo } = require('./index');
 
 describe('create todo', () => {
