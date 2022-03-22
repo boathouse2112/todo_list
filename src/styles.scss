@@ -1,5 +1,51 @@
 @import 'base';
 
+$blue: #007aff;
+$red: #007aff;
+$charcoal: #5b626a;
+$yellow: #ff9500;
+$light-grey: #eaeae9;
+$grey: #d0d1d0;
+$dark-grey: #adaeac;
+
+$font-stack: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+  Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+$font-rounded: 'M PLUS Rounded 1c';
+
+body {
+  /* Disable scrolling on 100vh body */
+  overflow: hidden;
+  font-family: $font-stack;
+}
+
 h1 {
-  color: red;
+  font-size: 42px;
+  font-family: $font-rounded, $font-stack;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1fr);
+}
+
+.sidebar {
+  padding: 20px 15px;
+  background-color: $light-grey;
+
+  h2 {
+    font-family: $font-rounded, $font-stack;
+    font-size: 14px;
+    color: $dark-grey;
+  }
+}
+
+.content {
+  padding: 30px 15px;
+}
+
+.today {
+  color: $blue;
 }
