@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-const { createTodo } = require('./index');
+const { createTodo } = require('./todo');
 
 describe('create todo', () => {
   test('id is 36 characters long', () => {
