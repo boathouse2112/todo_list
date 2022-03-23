@@ -12,6 +12,7 @@ module.exports = {
   rules: {
     'no-console': 'off',
     'func-names': 'off',
+    'no-use-before-define': 'off',
     'no-unused-vars': 'warn',
   },
 };
